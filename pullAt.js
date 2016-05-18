@@ -1,10 +1,10 @@
-import arrayMap from './_arrayMap';
-import baseAt from './_baseAt';
-import baseFlatten from './_baseFlatten';
-import basePullAt from './_basePullAt';
-import compareAscending from './_compareAscending';
-import isIndex from './_isIndex';
-import rest from './rest';
+import arrayMap from './_arrayMap.js';
+import baseAt from './_baseAt.js';
+import baseFlatten from './_baseFlatten.js';
+import basePullAt from './_basePullAt.js';
+import compareAscending from './_compareAscending.js';
+import isIndex from './_isIndex.js';
+import rest from './rest.js';
 
 /**
  * Removes elements from `array` corresponding to `indexes` and returns an

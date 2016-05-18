@@ -1,9 +1,9 @@
-import arrayFilter from './_arrayFilter';
-import baseIteratee from './_baseIteratee';
-import baseXor from './_baseXor';
-import isArrayLikeObject from './isArrayLikeObject';
-import last from './last';
-import rest from './rest';
+import arrayFilter from './_arrayFilter.js';
+import baseIteratee from './_baseIteratee.js';
+import baseXor from './_baseXor.js';
+import isArrayLikeObject from './isArrayLikeObject.js';
+import last from './last.js';
+import rest from './rest.js';
 
 /**
  * This method is like `_.xor` except that it accepts `iteratee` which is

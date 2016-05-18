@@ -1,4 +1,4 @@
-import createFlow from './_createFlow';
+import createFlow from './_createFlow.js';
 
 /**
  * This method is like `_.flow` except that it creates a function that

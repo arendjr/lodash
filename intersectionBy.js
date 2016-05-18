@@ -1,9 +1,9 @@
-import arrayMap from './_arrayMap';
-import baseIntersection from './_baseIntersection';
-import baseIteratee from './_baseIteratee';
-import castArrayLikeObject from './_castArrayLikeObject';
-import last from './last';
-import rest from './rest';
+import arrayMap from './_arrayMap.js';
+import baseIntersection from './_baseIntersection.js';
+import baseIteratee from './_baseIteratee.js';
+import castArrayLikeObject from './_castArrayLikeObject.js';
+import last from './last.js';
+import rest from './rest.js';
 
 /**
  * This method is like `_.intersection` except that it accepts `iteratee`

@@ -1,6 +1,6 @@
-import baseAt from './_baseAt';
-import baseFlatten from './_baseFlatten';
-import rest from './rest';
+import baseAt from './_baseAt.js';
+import baseFlatten from './_baseFlatten.js';
+import rest from './rest.js';
 
 /**
  * Creates an array of values corresponding to `paths` of `object`.

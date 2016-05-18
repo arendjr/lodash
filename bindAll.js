@@ -1,8 +1,8 @@
-import arrayEach from './_arrayEach';
-import baseFlatten from './_baseFlatten';
-import bind from './bind';
-import rest from './rest';
-import toKey from './_toKey';
+import arrayEach from './_arrayEach.js';
+import baseFlatten from './_baseFlatten.js';
+import bind from './bind.js';
+import rest from './rest.js';
+import toKey from './_toKey.js';
 
 /**
  * Binds methods of an object to the object itself, overwriting the existing

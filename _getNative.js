@@ -1,4 +1,6 @@
-import isNative from './isNative';
+import getValue from './_getValue.js';
+import isMaskable from './_isMaskable.js';
+import isNative from './isNative.js';
 
 /**
  * Gets the native function at `key` of `object`.
@@ -9,8 +11,8 @@ import isNative from './isNative';
  * @returns {*} Returns the function if it's native, else `undefined`.
  */
 function getNative(object, key) {
-  var value = object[key];
-  return isNative(value) ? value : undefined;
+  var value = getValue(object, key);
+  return (isMaskable(value) ? baseIsNative : isNative)(value) ? value : undefined;
 }
 
 export default getNative;

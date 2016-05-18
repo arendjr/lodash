@@ -1,5 +1,5 @@
-import baseSortedIndex from './_baseSortedIndex';
-import eq from './eq';
+import baseSortedIndex from './_baseSortedIndex.js';
+import eq from './eq.js';
 
 /**
  * This method is like `_.lastIndexOf` except that it performs a binary

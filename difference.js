@@ -1,7 +1,7 @@
-import baseDifference from './_baseDifference';
-import baseFlatten from './_baseFlatten';
-import isArrayLikeObject from './isArrayLikeObject';
-import rest from './rest';
+import baseDifference from './_baseDifference.js';
+import baseFlatten from './_baseFlatten.js';
+import isArrayLikeObject from './isArrayLikeObject.js';
+import rest from './rest.js';
 
 /**
  * Creates an array of unique `array` values not included in the other given

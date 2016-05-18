@@ -1,5 +1,5 @@
-import pullAll from './pullAll';
-import rest from './rest';
+import pullAll from './pullAll.js';
+import rest from './rest.js';
 
 /**
  * Removes all given values from `array` using

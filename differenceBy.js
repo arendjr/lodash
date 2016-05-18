@@ -1,9 +1,9 @@
-import baseDifference from './_baseDifference';
-import baseFlatten from './_baseFlatten';
-import baseIteratee from './_baseIteratee';
-import isArrayLikeObject from './isArrayLikeObject';
-import last from './last';
-import rest from './rest';
+import baseDifference from './_baseDifference.js';
+import baseFlatten from './_baseFlatten.js';
+import baseIteratee from './_baseIteratee.js';
+import isArrayLikeObject from './isArrayLikeObject.js';
+import last from './last.js';
+import rest from './rest.js';
 
 /**
  * This method is like `_.difference` except that it accepts `iteratee` which

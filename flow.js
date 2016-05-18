@@ -1,4 +1,4 @@
-import createFlow from './_createFlow';
+import createFlow from './_createFlow.js';
 
 /**
  * Creates a function that returns the result of invoking the given functions

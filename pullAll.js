@@ -1,4 +1,4 @@
-import basePullAll from './_basePullAll';
+import basePullAll from './_basePullAll.js';
 
 /**
  * This method is like `_.pull` except that it accepts an array of values to remove.

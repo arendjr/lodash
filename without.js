@@ -1,6 +1,6 @@
-import baseDifference from './_baseDifference';
-import isArrayLikeObject from './isArrayLikeObject';
-import rest from './rest';
+import baseDifference from './_baseDifference.js';
+import isArrayLikeObject from './isArrayLikeObject.js';
+import rest from './rest.js';
 
 /**
  * Creates an array excluding all given values using

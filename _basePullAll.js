@@ -1,7 +1,7 @@
-import arrayMap from './_arrayMap';
-import baseIndexOf from './_baseIndexOf';
-import baseIndexOfWith from './_baseIndexOfWith';
-import baseUnary from './_baseUnary';
+import arrayMap from './_arrayMap.js';
+import baseIndexOf from './_baseIndexOf.js';
+import baseIndexOfWith from './_baseIndexOfWith.js';
+import baseUnary from './_baseUnary.js';
 
 /** Used for built-in method references. */
 var arrayProto = Array.prototype;

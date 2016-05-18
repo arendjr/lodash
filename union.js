@@ -1,7 +1,7 @@
-import baseFlatten from './_baseFlatten';
-import baseUniq from './_baseUniq';
-import isArrayLikeObject from './isArrayLikeObject';
-import rest from './rest';
+import baseFlatten from './_baseFlatten.js';
+import baseUniq from './_baseUniq.js';
+import isArrayLikeObject from './isArrayLikeObject.js';
+import rest from './rest.js';
 
 /**
  * Creates an array of unique values, in order, from all given arrays using

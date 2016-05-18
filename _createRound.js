@@ -1,6 +1,6 @@
-import toInteger from './toInteger';
-import toNumber from './toNumber';
-import toString from './toString';
+import toInteger from './toInteger.js';
+import toNumber from './toNumber.js';
+import toString from './toString.js';
 
 /**
  * Creates a function like `_.round`.
